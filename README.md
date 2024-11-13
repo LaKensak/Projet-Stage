@@ -1,4 +1,4 @@
-# 🛠️ Installation & Configuration du Projet Django & React
+# 🛠️ Installation & Configuration du Projet 🐍 Django & ⚛️ React
 
 Ce guide explique comment configurer un projet utilisant Django pour le backend et React pour le frontend, ainsi que les outils nécessaires pour un environnement de développement moderne.
 
