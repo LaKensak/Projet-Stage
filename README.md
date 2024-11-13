@@ -1,84 +1,84 @@
-# 🛠️ Installation & ⚙️ Configuration du Projet 🐍 Django & ⚛️ React
+# 🛠️ Installation & Configuration du Projet Django & React
 
-📘 Ce guide explique comment configurer un projet utilisant 🐍 Django pour le backend et ⚛️ React pour le frontend, ainsi que les outils nécessaires pour un 🖥️ environnement de développement moderne.
+Ce guide explique comment configurer un projet utilisant Django pour le backend et React pour le frontend, ainsi que les outils nécessaires pour un environnement de développement moderne.
 
-## 🐍 Installation de Python & Django
+## Installation de Python & Django
 
-🚀 Pour commencer, installez 🐍 Django et Django REST Framework :
-
-```bash
-🐚 pip install django djangorestframework
-```
-
-🔧 Ensuite, créez les migrations et appliquez-les pour configurer la 🗄️ base de données :
+Pour commencer, installez Django et Django REST Framework :
 
 ```bash
-🐚 python manage.py makemigrations  # 👀 Pour voir les changements
-🐚 python manage.py migrate         # ✔️ Pour affecter les changements
+pip install django djangorestframework
 ```
 
-▶️ Enfin, lancez le serveur de développement 🐍 Django :
+Ensuite, créez les migrations et appliquez-les pour configurer la base de données :
 
 ```bash
-🐚 python manage.py runserver
+python manage.py makemigrations  # Pour voir les changements
+python manage.py migrate         # Pour appliquer les changements
 ```
 
-## ⚙️ Configuration de NPM & du Frontend
-
-Pour configurer l’environnement JavaScript 📦, exécutez les commandes suivantes :
-
-### 🛠️ Initialisation de NPM
-
-Initialisez un projet NPM 📦 :
+Enfin, lancez le serveur de développement Django :
 
 ```bash
-🐚 npm init -y
+python manage.py runserver
 ```
 
-### 📦 Installation des dépendances de développement
+## Configuration de NPM & du Frontend
 
-Installez Webpack ⚙️ et ses outils :
+Pour configurer l’environnement JavaScript, exécutez les commandes suivantes :
+
+### Initialisation de NPM
+
+Initialisez un projet NPM :
 
 ```bash
-🐚 npm i webpack webpack-cli --save-dev
+npm init -y
 ```
 
-Installez Babel 🛠️ pour la compilation de JavaScript moderne et ⚛️ React :
+### Installation des dépendances de développement
+
+Installez Webpack et ses outils :
 
 ```bash
-🐚 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+npm i webpack webpack-cli --save-dev
 ```
 
-### ⚛️ Installation des dépendances de production
-
-Installez ⚛️ React et React DOM 🖥️ :
+Installez Babel pour la compilation de JavaScript moderne et React :
 
 ```bash
-🐚 npm i react react-dom --save-dev
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 ```
 
-### 📚 Installation des bibliothèques supplémentaires
+### Installation des dépendances de production
 
-Pour une interface utilisateur enrichie ✨, installez Material-UI 🎨 et ses icônes 🖼️ :
+Installez React et React DOM :
 
 ```bash
-🐚 npm install @material-ui/core
-🐚 npm install @material-ui/icons
+npm i react react-dom --save-dev
 ```
 
-➕ Ajoutez le plugin Babel 🛠️ pour la prise en charge des propriétés de classes :
+### Installation des bibliothèques supplémentaires
+
+Pour une interface utilisateur enrichie, installez Material-UI et ses icônes :
 
 ```bash
-🐚 npm install @babel/plugin-proposal-class-properties
+npm install @material-ui/core
+npm install @material-ui/icons
 ```
 
-➡️ Installez React Router pour la gestion des routes 🛣️ :
+Ajoutez le plugin Babel pour la prise en charge des propriétés de classes :
 
 ```bash
-🐚 npm install react-router-dom
+npm install @babel/plugin-proposal-class-properties
 ```
 
-## ✅ C**onclusio**n
+Installez React Router pour la gestion des routes :
 
-Vous avez maintenant configuré un projet 🐍 Django pour le backend et ⚛️ React avec Webpack ⚙️ pour le frontend. Vous pouvez 🚀 démarrer le développement de votre application en utilisant les outils et les configurations ci-dessus.
+```bash
+npm install react-router-dom
+```
+
+## Conclusion
+
+Vous avez maintenant configuré un projet Django pour le backend et React avec Webpack pour le frontend. Vous pouvez démarrer le développement de votre application en utilisant les outils et les configurations ci-dessus.
 
